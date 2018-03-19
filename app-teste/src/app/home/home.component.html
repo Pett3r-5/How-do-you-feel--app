@@ -1,0 +1,53 @@
+
+<div id="homeCaixa">
+  <img id="logo" src="/assets/images/logoDrop.png"/>
+  <h1>How do you feel?</h1>
+  <h4 style="margin-top:-2%;">- an empathy machine -</h4>
+
+  <div class="dropdown">
+  <button class="dropbtn">Tell us</button>
+  <div class="dropdown-content">
+    <a (click)="happyFunction()">Fine</a>
+    <a (click)="soSoFunction()">So-so</a>
+    <a (click)="sadFunction()">Sad</a>
+  </div>
+
+
+
+  <div *ngIf="trueFalseSad" id="divSad" style="margin-top:15%;">
+    <a href="https://www.psychologytoday.com/blog/the-mindful-self-express/201411/10-scientific-reasons-you-re-feeling-depressed" style="text-decoration: none;">
+    <div class="subDivSad"><h4>10 Scientific Reasons You’re Feeling Depressed</h4></div>
+      </a>
+    <a href="https://www.psychologytoday.com/blog/panic-life/201711/feeling-sad-is-normal-part-life" style="text-decoration: none;">
+      <div class="subDivSad"><h4>Feeling Sad Is a Normal Part of Life</h4></div>
+    </a>
+    <a href="https://psychcentral.com/blog/feeling-sad-try-these-5-ways-to-feel-happy-instead/" style="text-decoration: none;">
+    <div class="subDivSad"><h4>Feeling Sad? Try These 5 Ways to Feel Happy Instead</h4></div>
+    </a>
+  </div>
+
+
+  <div *ngIf="trueFalseSoSo" id="divSad" style="margin-top:15%;">
+    <a href="https://www.fastcompany.com/3022134/there-are-5-types-of-boredom-which-are-you-feeling" style="text-decoration: none;">
+    <div class="subDivSad"><h4>There are 5 types of boredom. Which are you feeling?</h4></div>
+      </a>
+    <a href="https://greatist.com/grow/how-to-be-happy-long-term" style="text-decoration: none;">
+      <div class="subDivSad"><h4>25 Science-Backed Ways to Feel Happier</h4></div>
+    </a>
+    <a href="http://www.businessinsider.com/how-feel-happy-happier-better-2017-7" style="text-decoration: none;">
+    <div class="subDivSad"><h4>How to feel happier, according to neuroscientists and psychologists</h4></div>
+    </a>
+  </div>
+
+  <div *ngIf="trueFalseHappy" id="divSad" style="margin-top:15%;">
+
+    <div><h4>Nice</h4>
+      <img style="max-height:100px;" src="/assets/images/7198-smiling-face-with-open-mouth.png"/>
+    </div>
+
+      </div>
+
+
+
+
+ </div>

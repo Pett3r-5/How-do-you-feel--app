@@ -1,0 +1,132 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+  background-color: rgb(230, 230, 230);
+}
+#homeCaixa{
+  background-color: rgb(300, 300, 300);
+  align-self: center;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top:20px;
+  height: 830px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #999999;
+}
+
+h1{
+  color:  rgb(250, 121, 200);
+  font-family: BriemAkademiStd;
+  align: center;
+  margin-top:-20px;
+  text-shadow: 1.5px 1.5px 0px #999999;
+  font-size: 300%;
+}
+
+h4{
+  color:  rgb(111, 139, 230);
+  font-family: BriemAkademiStd;
+}
+
+
+
+#routs{
+  width: 188px;
+  margin-right: auto;
+  margin-left: auto;
+  padding:auto;
+  background-color: rgb(300, 300, 300);
+  height: 30px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+a{
+  underline: false;
+}
+
+#logo{
+  max-height: 200px;
+  width: auto;
+}
+
+@font-face {
+    font-family: BrandonGrotesqueBold;
+    src: url("/assets/Brandon_bld.otf");
+}
+
+button{
+  background-color: rgb(300, 300, 300);
+  height: 60px;
+  width: 90px;
+  border: 2px solid yellow;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #999999;
+  color: rgb(200, 121, 164);
+  font-family: BrandonGrotesqueBold;
+}
+
+
+@font-face {
+    font-family: BriemAkademiStd;
+    src: url("/assets/BriemAkademiStd-Cond.otf");
+}
+
+@font-face {
+    font-family: BERNHC;
+    src: url("/assets/BERNHC.ttf");
+}
+
+button:hover{
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.subDivSad{
+  background-image: linear-gradient(rgb(300, 300, 300), rgb(230, 230, 230));
+  height: 80px;
+  width: 90%;
+  margin: 3%;
+  box-shadow: 2px 2px 10px #999999;
+  border-radius: 5px;
+  padding-top:1%;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absoulte;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: rgb(200, 121, 164);
+    font-family: BrandonGrotesqueBold;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: rgb(200, 121, 164);
+
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(250, 121, 200);
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+
+}
